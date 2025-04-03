@@ -1,0 +1,69 @@
+# .gitignore for macOS projects
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+### Development ###
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+### Build ###
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# Build files
+dist/
+build/
+out/
+*.exe
+*.dll
+
+### Logs ###
+*.log
+logs/
+
+### Environment ###
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+### System ###
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
